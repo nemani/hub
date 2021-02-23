@@ -1,6 +1,7 @@
 package hub
 
 import (
+	"github.com/stretchr/testify/assert"
 	"os"
 	"testing"
 
@@ -8,7 +9,6 @@ import (
 	"github.com/cosmos/cosmos-sdk/codec"
 	"github.com/cosmos/cosmos-sdk/simapp"
 	"github.com/cosmos/cosmos-sdk/x/simulation"
-	"github.com/stretchr/testify/require"
 	abci "github.com/tendermint/tendermint/abci/types"
 	"github.com/tendermint/tendermint/libs/log"
 	tmdb "github.com/tendermint/tm-db"
@@ -27,7 +27,7 @@ func TestAppExport(t *testing.T) {
 	)
 
 	state, err := codec.MarshalJSONIndent(app.cdc, genesis)
-	require.NoError(t, err)
+	assert.Nil(t, err, "Marshalling Genesis")
 
 	app.InitChain(
 		abci.RequestInitChain{
@@ -39,7 +39,7 @@ func TestAppExport(t *testing.T) {
 
 	app = NewApp(logger, db, nil, true, map[int64]bool{}, 0)
 	_, _, err = app.ExportAppStateAndValidators(false, []string{})
-	require.NoError(t, err, "ExportAppStateAndValidators should not have an error")
+	assert.Nil(t, err, "ExportAppStateAndValidators")
 }
 
 func fauxMerkleModeOpt(app *baseapp.BaseApp) {
@@ -49,17 +49,17 @@ func fauxMerkleModeOpt(app *baseapp.BaseApp) {
 func TestFullAppSimulation(t *testing.T) {
 	config, db, dir, logger, skip, err := simapp.SetupSimulation("leveldb-simulation", "simulation")
 	if skip {
-		t.Skip("skipping application simulation")
+		t.Skip("Skipped App Simulation Setup")
 	}
-	require.NoError(t, err, "simulation setup failed")
+	assert.Nil(t, err, "App Simulation Setup Failed")
 
 	defer func() {
-		require.NoError(t, db.Close())
-		require.NoError(t, os.RemoveAll(dir))
+		assert.Nil(t, db.Close(), "Closing DB Connection")
+		assert.Nil(t, os.RemoveAll(dir), "Remove Everything in Simulation Path")
 	}()
 
 	app := NewApp(logger, db, nil, true, map[int64]bool{}, simapp.FlagPeriodValue, fauxMerkleModeOpt)
-	require.Equal(t, appName, app.Name())
+	assert.Equal(t, appName, app.Name(), "App Name")
 
 	_, params, err := simulation.SimulateFromSeed(
 		t, os.Stdout, app.BaseApp, simapp.AppStateFn(app.Codec(), app.SimulationManager()),
@@ -67,8 +67,8 @@ func TestFullAppSimulation(t *testing.T) {
 		app.ModuleAccountAddrs(), config,
 	)
 
-	require.NoError(t, simapp.CheckExportSimulation(app, config, params))
-	require.NoError(t, err)
+	assert.Nil(t, simapp.CheckExportSimulation(app, config, params), "Export Simulation")
+	assert.Nil(t, err, "Simulate From Seed")
 
 	if config.Commit {
 		simapp.PrintStats(db)
