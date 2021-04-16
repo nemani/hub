@@ -6,7 +6,7 @@ import (
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	hub "github.com/sentinel-official/hub/types"
+	hub "github.com/sentinel-official/hub/v0.5/types"
 )
 
 const (

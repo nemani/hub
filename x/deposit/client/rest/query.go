@@ -8,8 +8,8 @@ import (
 	"github.com/cosmos/cosmos-sdk/types/rest"
 	"github.com/gorilla/mux"
 
-	"github.com/sentinel-official/hub/utils"
-	"github.com/sentinel-official/hub/x/deposit/client/common"
+	"github.com/sentinel-official/hub/v0.5/utils"
+	"github.com/sentinel-official/hub/v0.5/x/deposit/client/common"
 )
 
 func queryDeposit(ctx context.CLIContext) http.HandlerFunc {

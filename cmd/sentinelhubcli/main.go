@@ -18,8 +18,8 @@ import (
 	"github.com/spf13/viper"
 	"github.com/tendermint/tendermint/libs/cli"
 
-	"github.com/sentinel-official/hub"
-	"github.com/sentinel-official/hub/types"
+	hub "github.com/sentinel-official/hub/v0.5"
+	"github.com/sentinel-official/hub/v0.5/types"
 )
 
 func main() {

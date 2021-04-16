@@ -8,8 +8,8 @@ import (
 	"github.com/cosmos/cosmos-sdk/codec"
 	"github.com/spf13/cobra"
 
-	"github.com/sentinel-official/hub/x/swap/client/common"
-	"github.com/sentinel-official/hub/x/swap/types"
+	"github.com/sentinel-official/hub/v0.5/x/swap/client/common"
+	"github.com/sentinel-official/hub/v0.5/x/swap/types"
 )
 
 func querySwap(cdc *codec.Codec) *cobra.Command {

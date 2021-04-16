@@ -32,9 +32,9 @@ import (
 	tmos "github.com/tendermint/tendermint/libs/os"
 	tmdb "github.com/tendermint/tm-db"
 
-	"github.com/sentinel-official/hub/x/deposit"
-	"github.com/sentinel-official/hub/x/swap"
-	"github.com/sentinel-official/hub/x/vpn"
+	"github.com/sentinel-official/hub/v0.5/x/deposit"
+	"github.com/sentinel-official/hub/v0.5/x/swap"
+	"github.com/sentinel-official/hub/v0.5/x/vpn"
 )
 
 const (

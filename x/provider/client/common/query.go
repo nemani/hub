@@ -5,8 +5,8 @@ import (
 
 	"github.com/cosmos/cosmos-sdk/client/context"
 
-	hub "github.com/sentinel-official/hub/types"
-	"github.com/sentinel-official/hub/x/provider/types"
+	hub "github.com/sentinel-official/hub/v0.5/types"
+	"github.com/sentinel-official/hub/v0.5/x/provider/types"
 )
 
 func QueryProvider(ctx context.CLIContext, address hub.ProvAddress) (*types.Provider, error) {

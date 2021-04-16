@@ -3,8 +3,8 @@ package provider
 import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	"github.com/sentinel-official/hub/x/provider/keeper"
-	"github.com/sentinel-official/hub/x/provider/types"
+	"github.com/sentinel-official/hub/v0.5/x/provider/keeper"
+	"github.com/sentinel-official/hub/v0.5/x/provider/types"
 )
 
 func HandleRegister(ctx sdk.Context, k keeper.Keeper, msg types.MsgRegister) (*sdk.Result, error) {

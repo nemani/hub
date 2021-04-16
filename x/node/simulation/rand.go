@@ -3,7 +3,7 @@ package simulation
 import (
 	"math/rand"
 
-	"github.com/sentinel-official/hub/x/node/types"
+	"github.com/sentinel-official/hub/v0.5/x/node/types"
 )
 
 func RandomNode(r *rand.Rand, nodes types.Nodes) types.Node {

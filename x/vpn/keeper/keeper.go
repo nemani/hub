@@ -9,12 +9,12 @@ import (
 	"github.com/cosmos/cosmos-sdk/x/params"
 	"github.com/cosmos/cosmos-sdk/x/supply"
 
-	"github.com/sentinel-official/hub/x/deposit"
-	"github.com/sentinel-official/hub/x/node"
-	"github.com/sentinel-official/hub/x/plan"
-	"github.com/sentinel-official/hub/x/provider"
-	"github.com/sentinel-official/hub/x/session"
-	"github.com/sentinel-official/hub/x/subscription"
+	"github.com/sentinel-official/hub/v0.5/x/deposit"
+	"github.com/sentinel-official/hub/v0.5/x/node"
+	"github.com/sentinel-official/hub/v0.5/x/plan"
+	"github.com/sentinel-official/hub/v0.5/x/provider"
+	"github.com/sentinel-official/hub/v0.5/x/session"
+	"github.com/sentinel-official/hub/v0.5/x/subscription"
 )
 
 type Keeper struct {

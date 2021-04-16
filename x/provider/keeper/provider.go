@@ -3,8 +3,8 @@ package keeper
 import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	hub "github.com/sentinel-official/hub/types"
-	"github.com/sentinel-official/hub/x/provider/types"
+	hub "github.com/sentinel-official/hub/v0.5/types"
+	"github.com/sentinel-official/hub/v0.5/x/provider/types"
 )
 
 // SetProvider is for inserting a provider into the KVStore.

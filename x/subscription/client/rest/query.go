@@ -9,10 +9,10 @@ import (
 	"github.com/cosmos/cosmos-sdk/types/rest"
 	"github.com/gorilla/mux"
 
-	hub "github.com/sentinel-official/hub/types"
-	"github.com/sentinel-official/hub/utils"
-	"github.com/sentinel-official/hub/x/subscription/client/common"
-	"github.com/sentinel-official/hub/x/subscription/types"
+	hub "github.com/sentinel-official/hub/v0.5/types"
+	"github.com/sentinel-official/hub/v0.5/utils"
+	"github.com/sentinel-official/hub/v0.5/x/subscription/client/common"
+	"github.com/sentinel-official/hub/v0.5/x/subscription/types"
 )
 
 func querySubscription(ctx context.CLIContext) http.HandlerFunc {

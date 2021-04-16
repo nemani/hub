@@ -7,9 +7,9 @@
 package deposit
 
 import (
-	"github.com/sentinel-official/hub/x/deposit/keeper"
-	"github.com/sentinel-official/hub/x/deposit/querier"
-	"github.com/sentinel-official/hub/x/deposit/types"
+	"github.com/sentinel-official/hub/v0.5/x/deposit/keeper"
+	"github.com/sentinel-official/hub/v0.5/x/deposit/querier"
+	"github.com/sentinel-official/hub/v0.5/x/deposit/types"
 )
 
 const (

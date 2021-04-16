@@ -4,10 +4,10 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	abci "github.com/tendermint/tendermint/abci/types"
 
-	"github.com/sentinel-official/hub/x/node"
-	"github.com/sentinel-official/hub/x/session"
-	"github.com/sentinel-official/hub/x/subscription"
-	"github.com/sentinel-official/hub/x/vpn/keeper"
+	"github.com/sentinel-official/hub/v0.5/x/node"
+	"github.com/sentinel-official/hub/v0.5/x/session"
+	"github.com/sentinel-official/hub/v0.5/x/subscription"
+	"github.com/sentinel-official/hub/v0.5/x/vpn/keeper"
 )
 
 func EndBlock(ctx sdk.Context, k keeper.Keeper) abci.ValidatorUpdates {

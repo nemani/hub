@@ -3,8 +3,8 @@ package keeper
 import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	hub "github.com/sentinel-official/hub/types"
-	node "github.com/sentinel-official/hub/x/node/types"
+	hub "github.com/sentinel-official/hub/v0.5/types"
+	node "github.com/sentinel-official/hub/v0.5/x/node/types"
 )
 
 func (k Keeper) HasProvider(ctx sdk.Context, address hub.ProvAddress) bool {

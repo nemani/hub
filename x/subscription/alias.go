@@ -7,9 +7,9 @@
 package subscription
 
 import (
-	"github.com/sentinel-official/hub/x/subscription/keeper"
-	"github.com/sentinel-official/hub/x/subscription/querier"
-	"github.com/sentinel-official/hub/x/subscription/types"
+	"github.com/sentinel-official/hub/v0.5/x/subscription/keeper"
+	"github.com/sentinel-official/hub/v0.5/x/subscription/querier"
+	"github.com/sentinel-official/hub/v0.5/x/subscription/types"
 )
 
 const (

@@ -8,10 +8,10 @@ import (
 	"github.com/cosmos/cosmos-sdk/types/rest"
 	"github.com/gorilla/mux"
 
-	hub "github.com/sentinel-official/hub/types"
-	"github.com/sentinel-official/hub/utils"
-	"github.com/sentinel-official/hub/x/plan/client/common"
-	"github.com/sentinel-official/hub/x/plan/types"
+	hub "github.com/sentinel-official/hub/v0.5/types"
+	"github.com/sentinel-official/hub/v0.5/utils"
+	"github.com/sentinel-official/hub/v0.5/x/plan/client/common"
+	"github.com/sentinel-official/hub/v0.5/x/plan/types"
 )
 
 func queryPlan(ctx context.CLIContext) http.HandlerFunc {

@@ -8,9 +8,9 @@ import (
 	"github.com/cosmos/cosmos-sdk/types/rest"
 	"github.com/gorilla/mux"
 
-	"github.com/sentinel-official/hub/utils"
-	"github.com/sentinel-official/hub/x/swap/client/common"
-	"github.com/sentinel-official/hub/x/swap/types"
+	"github.com/sentinel-official/hub/v0.5/utils"
+	"github.com/sentinel-official/hub/v0.5/x/swap/client/common"
+	"github.com/sentinel-official/hub/v0.5/x/swap/types"
 )
 
 func querySwap(ctx context.CLIContext) http.HandlerFunc {

@@ -9,9 +9,9 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/spf13/cobra"
 
-	hub "github.com/sentinel-official/hub/types"
-	"github.com/sentinel-official/hub/x/subscription/client/common"
-	"github.com/sentinel-official/hub/x/subscription/types"
+	hub "github.com/sentinel-official/hub/v0.5/types"
+	"github.com/sentinel-official/hub/v0.5/x/subscription/client/common"
+	"github.com/sentinel-official/hub/v0.5/x/subscription/types"
 )
 
 func querySubscription(cdc *codec.Codec) *cobra.Command {

@@ -8,10 +8,10 @@ import (
 	"github.com/cosmos/cosmos-sdk/types/rest"
 	"github.com/gorilla/mux"
 
-	hub "github.com/sentinel-official/hub/types"
-	"github.com/sentinel-official/hub/utils"
-	"github.com/sentinel-official/hub/x/node/client/common"
-	"github.com/sentinel-official/hub/x/node/types"
+	hub "github.com/sentinel-official/hub/v0.5/types"
+	"github.com/sentinel-official/hub/v0.5/utils"
+	"github.com/sentinel-official/hub/v0.5/x/node/client/common"
+	"github.com/sentinel-official/hub/v0.5/x/node/types"
 )
 
 func queryNode(ctx context.CLIContext) http.HandlerFunc {

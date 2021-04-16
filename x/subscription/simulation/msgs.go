@@ -9,11 +9,11 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/cosmos/cosmos-sdk/x/simulation"
 
-	node "github.com/sentinel-official/hub/x/node/simulation"
-	plan "github.com/sentinel-official/hub/x/plan/simulation"
-	"github.com/sentinel-official/hub/x/subscription/expected"
-	"github.com/sentinel-official/hub/x/subscription/keeper"
-	"github.com/sentinel-official/hub/x/subscription/types"
+	node "github.com/sentinel-official/hub/v0.5/x/node/simulation"
+	plan "github.com/sentinel-official/hub/v0.5/x/plan/simulation"
+	"github.com/sentinel-official/hub/v0.5/x/subscription/expected"
+	"github.com/sentinel-official/hub/v0.5/x/subscription/keeper"
+	"github.com/sentinel-official/hub/v0.5/x/subscription/types"
 )
 
 func SimulateMsgSubscribeToNode(ak expected.AccountKeeper, nk expected.NodeKeeper) simulation.Operation {

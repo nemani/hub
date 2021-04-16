@@ -5,8 +5,8 @@ import (
 	"github.com/cosmos/cosmos-sdk/types/errors"
 	abci "github.com/tendermint/tendermint/abci/types"
 
-	"github.com/sentinel-official/hub/x/swap/keeper"
-	"github.com/sentinel-official/hub/x/swap/types"
+	"github.com/sentinel-official/hub/v0.5/x/swap/keeper"
+	"github.com/sentinel-official/hub/v0.5/x/swap/types"
 )
 
 func querySwap(ctx sdk.Context, req abci.RequestQuery, k keeper.Keeper) ([]byte, error) {

@@ -8,8 +8,8 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/tendermint/tendermint/libs/log"
 
-	"github.com/sentinel-official/hub/x/plan/expected"
-	"github.com/sentinel-official/hub/x/plan/types"
+	"github.com/sentinel-official/hub/v0.5/x/plan/expected"
+	"github.com/sentinel-official/hub/v0.5/x/plan/types"
 )
 
 type Keeper struct {

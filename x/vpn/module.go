@@ -13,13 +13,13 @@ import (
 	"github.com/spf13/cobra"
 	abci "github.com/tendermint/tendermint/abci/types"
 
-	"github.com/sentinel-official/hub/x/vpn/client/cli"
-	"github.com/sentinel-official/hub/x/vpn/client/rest"
-	"github.com/sentinel-official/hub/x/vpn/expected"
-	"github.com/sentinel-official/hub/x/vpn/keeper"
-	"github.com/sentinel-official/hub/x/vpn/querier"
-	"github.com/sentinel-official/hub/x/vpn/simulation"
-	"github.com/sentinel-official/hub/x/vpn/types"
+	"github.com/sentinel-official/hub/v0.5/x/vpn/client/cli"
+	"github.com/sentinel-official/hub/v0.5/x/vpn/client/rest"
+	"github.com/sentinel-official/hub/v0.5/x/vpn/expected"
+	"github.com/sentinel-official/hub/v0.5/x/vpn/keeper"
+	"github.com/sentinel-official/hub/v0.5/x/vpn/querier"
+	"github.com/sentinel-official/hub/v0.5/x/vpn/simulation"
+	"github.com/sentinel-official/hub/v0.5/x/vpn/types"
 )
 
 var (

@@ -9,8 +9,8 @@ import (
 	"github.com/cosmos/cosmos-sdk/x/params"
 	"github.com/tendermint/tendermint/libs/log"
 
-	"github.com/sentinel-official/hub/x/subscription/expected"
-	"github.com/sentinel-official/hub/x/subscription/types"
+	"github.com/sentinel-official/hub/v0.5/x/subscription/expected"
+	"github.com/sentinel-official/hub/v0.5/x/subscription/types"
 )
 
 type Keeper struct {

@@ -7,9 +7,9 @@
 package plan
 
 import (
-	"github.com/sentinel-official/hub/x/plan/keeper"
-	"github.com/sentinel-official/hub/x/plan/querier"
-	"github.com/sentinel-official/hub/x/plan/types"
+	"github.com/sentinel-official/hub/v0.5/x/plan/keeper"
+	"github.com/sentinel-official/hub/v0.5/x/plan/querier"
+	"github.com/sentinel-official/hub/v0.5/x/plan/types"
 )
 
 const (

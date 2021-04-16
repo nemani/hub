@@ -15,7 +15,7 @@ import (
 	"github.com/tendermint/tendermint/libs/log"
 	tdb "github.com/tendermint/tm-db"
 
-	"github.com/sentinel-official/hub/x/deposit/types"
+	"github.com/sentinel-official/hub/v0.5/x/deposit/types"
 )
 
 func CreateTestInput(t *testing.T, isCheckTx bool) (sdk.Context, Keeper, bank.Keeper) {

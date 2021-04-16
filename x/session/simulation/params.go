@@ -7,7 +7,7 @@ import (
 
 	"github.com/cosmos/cosmos-sdk/x/simulation"
 
-	"github.com/sentinel-official/hub/x/session/types"
+	"github.com/sentinel-official/hub/v0.5/x/session/types"
 )
 
 func RandomizedParams() []simulation.ParamChange {

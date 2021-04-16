@@ -5,7 +5,7 @@ import (
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	"github.com/sentinel-official/hub/x/node/types"
+	"github.com/sentinel-official/hub/v0.5/x/node/types"
 )
 
 func (k Keeper) Deposit(ctx sdk.Context) (deposit sdk.Coin) {

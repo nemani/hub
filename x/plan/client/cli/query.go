@@ -8,9 +8,9 @@ import (
 	"github.com/cosmos/cosmos-sdk/codec"
 	"github.com/spf13/cobra"
 
-	hub "github.com/sentinel-official/hub/types"
-	"github.com/sentinel-official/hub/x/plan/client/common"
-	"github.com/sentinel-official/hub/x/plan/types"
+	hub "github.com/sentinel-official/hub/v0.5/types"
+	"github.com/sentinel-official/hub/v0.5/x/plan/client/common"
+	"github.com/sentinel-official/hub/v0.5/x/plan/types"
 )
 
 func queryPlan(cdc *codec.Codec) *cobra.Command {

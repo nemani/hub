@@ -8,7 +8,7 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/spf13/cobra"
 
-	"github.com/sentinel-official/hub/x/deposit/client/common"
+	"github.com/sentinel-official/hub/v0.5/x/deposit/client/common"
 )
 
 func queryDeposit(cdc *codec.Codec) *cobra.Command {

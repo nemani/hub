@@ -3,7 +3,7 @@ package simulation
 import (
 	"math/rand"
 
-	"github.com/sentinel-official/hub/x/plan/types"
+	"github.com/sentinel-official/hub/v0.5/x/plan/types"
 )
 
 func RandomPlan(r *rand.Rand, plans types.Plans) types.Plan {

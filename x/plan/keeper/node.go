@@ -3,9 +3,9 @@ package keeper
 import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	hub "github.com/sentinel-official/hub/types"
-	node "github.com/sentinel-official/hub/x/node/types"
-	"github.com/sentinel-official/hub/x/plan/types"
+	hub "github.com/sentinel-official/hub/v0.5/types"
+	node "github.com/sentinel-official/hub/v0.5/x/node/types"
+	"github.com/sentinel-official/hub/v0.5/x/plan/types"
 )
 
 func (k Keeper) SetNodeForPlan(ctx sdk.Context, id uint64, address hub.NodeAddress) {

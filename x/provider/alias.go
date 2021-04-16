@@ -7,9 +7,9 @@
 package provider
 
 import (
-	"github.com/sentinel-official/hub/x/provider/keeper"
-	"github.com/sentinel-official/hub/x/provider/querier"
-	"github.com/sentinel-official/hub/x/provider/types"
+	"github.com/sentinel-official/hub/v0.5/x/provider/keeper"
+	"github.com/sentinel-official/hub/v0.5/x/provider/querier"
+	"github.com/sentinel-official/hub/v0.5/x/provider/types"
 )
 
 const (

@@ -21,8 +21,8 @@ import (
 	tm "github.com/tendermint/tendermint/types"
 	db "github.com/tendermint/tm-db"
 
-	"github.com/sentinel-official/hub"
-	"github.com/sentinel-official/hub/types"
+	hub "github.com/sentinel-official/hub/v0.5"
+	"github.com/sentinel-official/hub/v0.5/types"
 )
 
 const (

@@ -10,12 +10,12 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/cosmos/cosmos-sdk/x/simulation"
 
-	hub "github.com/sentinel-official/hub/types"
-	node "github.com/sentinel-official/hub/x/node/simulation"
-	"github.com/sentinel-official/hub/x/plan/expected"
-	"github.com/sentinel-official/hub/x/plan/keeper"
-	"github.com/sentinel-official/hub/x/plan/types"
-	provider "github.com/sentinel-official/hub/x/provider/simulation"
+	hub "github.com/sentinel-official/hub/v0.5/types"
+	node "github.com/sentinel-official/hub/v0.5/x/node/simulation"
+	"github.com/sentinel-official/hub/v0.5/x/plan/expected"
+	"github.com/sentinel-official/hub/v0.5/x/plan/keeper"
+	"github.com/sentinel-official/hub/v0.5/x/plan/types"
+	provider "github.com/sentinel-official/hub/v0.5/x/provider/simulation"
 )
 
 func SimulateMsgAdd(ak expected.AccountKeeper, pk expected.ProviderKeeper) simulation.Operation {

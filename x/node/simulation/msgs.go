@@ -9,11 +9,11 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/cosmos/cosmos-sdk/x/simulation"
 
-	hub "github.com/sentinel-official/hub/types"
-	"github.com/sentinel-official/hub/x/node/expected"
-	"github.com/sentinel-official/hub/x/node/keeper"
-	"github.com/sentinel-official/hub/x/node/types"
-	provider "github.com/sentinel-official/hub/x/provider/simulation"
+	hub "github.com/sentinel-official/hub/v0.5/types"
+	"github.com/sentinel-official/hub/v0.5/x/node/expected"
+	"github.com/sentinel-official/hub/v0.5/x/node/keeper"
+	"github.com/sentinel-official/hub/v0.5/x/node/types"
+	provider "github.com/sentinel-official/hub/v0.5/x/provider/simulation"
 )
 
 func SimulateMsgRegister(ak expected.AccountKeeper, pk expected.ProviderKeeper, k keeper.Keeper) simulation.Operation {

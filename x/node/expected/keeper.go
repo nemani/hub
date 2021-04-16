@@ -4,9 +4,9 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/cosmos/cosmos-sdk/x/auth/exported"
 
-	hub "github.com/sentinel-official/hub/types"
-	plan "github.com/sentinel-official/hub/x/plan/types"
-	provider "github.com/sentinel-official/hub/x/provider/types"
+	hub "github.com/sentinel-official/hub/v0.5/types"
+	plan "github.com/sentinel-official/hub/v0.5/x/plan/types"
+	provider "github.com/sentinel-official/hub/v0.5/x/provider/types"
 )
 
 type AccountKeeper interface {

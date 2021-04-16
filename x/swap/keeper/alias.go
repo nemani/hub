@@ -3,7 +3,7 @@ package keeper
 import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	"github.com/sentinel-official/hub/x/swap/types"
+	"github.com/sentinel-official/hub/v0.5/x/swap/types"
 )
 
 func (k Keeper) MintCoin(ctx sdk.Context, coin sdk.Coin) error {

@@ -7,9 +7,9 @@
 package node
 
 import (
-	"github.com/sentinel-official/hub/x/node/keeper"
-	"github.com/sentinel-official/hub/x/node/querier"
-	"github.com/sentinel-official/hub/x/node/types"
+	"github.com/sentinel-official/hub/v0.5/x/node/keeper"
+	"github.com/sentinel-official/hub/v0.5/x/node/querier"
+	"github.com/sentinel-official/hub/v0.5/x/node/types"
 )
 
 const (

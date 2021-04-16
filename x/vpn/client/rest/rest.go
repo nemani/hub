@@ -4,12 +4,12 @@ import (
 	"github.com/cosmos/cosmos-sdk/client/context"
 	"github.com/gorilla/mux"
 
-	deposit "github.com/sentinel-official/hub/x/deposit/client/rest"
-	node "github.com/sentinel-official/hub/x/node/client/rest"
-	plan "github.com/sentinel-official/hub/x/plan/client/rest"
-	provider "github.com/sentinel-official/hub/x/provider/client/rest"
-	session "github.com/sentinel-official/hub/x/session/client/rest"
-	subscription "github.com/sentinel-official/hub/x/subscription/client/rest"
+	deposit "github.com/sentinel-official/hub/v0.5/x/deposit/client/rest"
+	node "github.com/sentinel-official/hub/v0.5/x/node/client/rest"
+	plan "github.com/sentinel-official/hub/v0.5/x/plan/client/rest"
+	provider "github.com/sentinel-official/hub/v0.5/x/provider/client/rest"
+	session "github.com/sentinel-official/hub/v0.5/x/session/client/rest"
+	subscription "github.com/sentinel-official/hub/v0.5/x/subscription/client/rest"
 )
 
 func RegisterRoutes(context context.CLIContext, router *mux.Router) {

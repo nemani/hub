@@ -5,7 +5,7 @@ import (
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	"github.com/sentinel-official/hub/x/subscription/types"
+	"github.com/sentinel-official/hub/v0.5/x/subscription/types"
 )
 
 func (k Keeper) InactiveDuration(ctx sdk.Context) (duration time.Duration) {

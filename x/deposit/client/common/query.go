@@ -6,7 +6,7 @@ import (
 	"github.com/cosmos/cosmos-sdk/client/context"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	"github.com/sentinel-official/hub/x/deposit/types"
+	"github.com/sentinel-official/hub/v0.5/x/deposit/types"
 )
 
 func QueryDeposit(ctx context.CLIContext, address sdk.AccAddress) (*types.Deposit, error) {

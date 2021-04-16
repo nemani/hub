@@ -3,12 +3,12 @@ package types
 import (
 	"fmt"
 
-	deposit "github.com/sentinel-official/hub/x/deposit/types"
-	node "github.com/sentinel-official/hub/x/node/types"
-	plan "github.com/sentinel-official/hub/x/plan/types"
-	provider "github.com/sentinel-official/hub/x/provider/types"
-	session "github.com/sentinel-official/hub/x/session/types"
-	subscription "github.com/sentinel-official/hub/x/subscription/types"
+	deposit "github.com/sentinel-official/hub/v0.5/x/deposit/types"
+	node "github.com/sentinel-official/hub/v0.5/x/node/types"
+	plan "github.com/sentinel-official/hub/v0.5/x/plan/types"
+	provider "github.com/sentinel-official/hub/v0.5/x/provider/types"
+	session "github.com/sentinel-official/hub/v0.5/x/session/types"
+	subscription "github.com/sentinel-official/hub/v0.5/x/subscription/types"
 )
 
 func init() {

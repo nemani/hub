@@ -5,7 +5,7 @@ import (
 
 	"github.com/cosmos/cosmos-sdk/client/context"
 
-	"github.com/sentinel-official/hub/x/swap/types"
+	"github.com/sentinel-official/hub/v0.5/x/swap/types"
 )
 
 func QuerySwap(ctx context.CLIContext, txHash types.EthereumHash) (*types.Swap, error) {

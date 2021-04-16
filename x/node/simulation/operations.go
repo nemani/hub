@@ -6,8 +6,8 @@ import (
 	"github.com/cosmos/cosmos-sdk/codec"
 	"github.com/cosmos/cosmos-sdk/x/simulation"
 
-	"github.com/sentinel-official/hub/x/node/expected"
-	"github.com/sentinel-official/hub/x/node/keeper"
+	"github.com/sentinel-official/hub/v0.5/x/node/expected"
+	"github.com/sentinel-official/hub/v0.5/x/node/keeper"
 )
 
 func WeightedOperations(params simulation.AppParams, cdc *codec.Codec, ak expected.AccountKeeper, pk expected.ProviderKeeper, k keeper.Keeper) simulation.WeightedOperations {

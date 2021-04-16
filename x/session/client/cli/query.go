@@ -9,9 +9,9 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/spf13/cobra"
 
-	hub "github.com/sentinel-official/hub/types"
-	"github.com/sentinel-official/hub/x/session/client/common"
-	"github.com/sentinel-official/hub/x/session/types"
+	hub "github.com/sentinel-official/hub/v0.5/types"
+	"github.com/sentinel-official/hub/v0.5/x/session/client/common"
+	"github.com/sentinel-official/hub/v0.5/x/session/types"
 )
 
 func querySession(cdc *codec.Codec) *cobra.Command {

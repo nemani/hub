@@ -10,7 +10,7 @@ import (
 	"github.com/cosmos/cosmos-sdk/x/auth/client/utils"
 	"github.com/spf13/cobra"
 
-	"github.com/sentinel-official/hub/x/provider/types"
+	"github.com/sentinel-official/hub/v0.5/x/provider/types"
 )
 
 func txRegister(cdc *codec.Codec) *cobra.Command {

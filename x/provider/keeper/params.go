@@ -3,7 +3,7 @@ package keeper
 import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	"github.com/sentinel-official/hub/x/provider/types"
+	"github.com/sentinel-official/hub/v0.5/x/provider/types"
 )
 
 func (k Keeper) Deposit(ctx sdk.Context) (deposit sdk.Coin) {

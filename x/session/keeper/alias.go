@@ -4,8 +4,8 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/cosmos/cosmos-sdk/x/auth/exported"
 
-	hub "github.com/sentinel-official/hub/types"
-	subscription "github.com/sentinel-official/hub/x/subscription/types"
+	hub "github.com/sentinel-official/hub/v0.5/types"
+	subscription "github.com/sentinel-official/hub/v0.5/x/subscription/types"
 )
 
 func (k Keeper) GetAccount(ctx sdk.Context, address sdk.AccAddress) exported.Account {

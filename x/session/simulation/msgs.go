@@ -10,11 +10,11 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/cosmos/cosmos-sdk/x/simulation"
 
-	hub "github.com/sentinel-official/hub/types"
-	node "github.com/sentinel-official/hub/x/node/simulation"
-	"github.com/sentinel-official/hub/x/session/expected"
-	"github.com/sentinel-official/hub/x/session/types"
-	subscription "github.com/sentinel-official/hub/x/subscription/simulation"
+	hub "github.com/sentinel-official/hub/v0.5/types"
+	node "github.com/sentinel-official/hub/v0.5/x/node/simulation"
+	"github.com/sentinel-official/hub/v0.5/x/session/expected"
+	"github.com/sentinel-official/hub/v0.5/x/session/types"
+	subscription "github.com/sentinel-official/hub/v0.5/x/subscription/simulation"
 )
 
 func SimulateUpsert(ak expected.AccountKeeper, pk expected.PlanKeeper, sk expected.SubscriptionKeeper) simulation.Operation {

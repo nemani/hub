@@ -1,7 +1,7 @@
 package types
 
 import (
-	hub "github.com/sentinel-official/hub/types"
+	hub "github.com/sentinel-official/hub/v0.5/types"
 )
 
 type GenesisPlan struct {

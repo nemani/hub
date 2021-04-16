@@ -4,9 +4,9 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	abci "github.com/tendermint/tendermint/abci/types"
 
-	hub "github.com/sentinel-official/hub/types"
-	"github.com/sentinel-official/hub/x/node/keeper"
-	"github.com/sentinel-official/hub/x/node/types"
+	hub "github.com/sentinel-official/hub/v0.5/types"
+	"github.com/sentinel-official/hub/v0.5/x/node/keeper"
+	"github.com/sentinel-official/hub/v0.5/x/node/types"
 )
 
 func EndBlock(ctx sdk.Context, k keeper.Keeper) []abci.ValidatorUpdate {

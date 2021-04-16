@@ -5,8 +5,8 @@ import (
 	"github.com/cosmos/cosmos-sdk/types/errors"
 	abci "github.com/tendermint/tendermint/abci/types"
 
-	"github.com/sentinel-official/hub/x/plan/keeper"
-	"github.com/sentinel-official/hub/x/plan/types"
+	"github.com/sentinel-official/hub/v0.5/x/plan/keeper"
+	"github.com/sentinel-official/hub/v0.5/x/plan/types"
 )
 
 func Querier(ctx sdk.Context, path []string, req abci.RequestQuery, k keeper.Keeper) ([]byte, error) {

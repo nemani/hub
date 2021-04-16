@@ -7,9 +7,9 @@
 package swap
 
 import (
-	"github.com/sentinel-official/hub/x/swap/keeper"
-	"github.com/sentinel-official/hub/x/swap/querier"
-	"github.com/sentinel-official/hub/x/swap/types"
+	"github.com/sentinel-official/hub/v0.5/x/swap/keeper"
+	"github.com/sentinel-official/hub/v0.5/x/swap/querier"
+	"github.com/sentinel-official/hub/v0.5/x/swap/types"
 )
 
 const (

@@ -5,7 +5,7 @@ import (
 
 	"github.com/cosmos/cosmos-sdk/codec"
 
-	"github.com/sentinel-official/hub/x/subscription/types"
+	"github.com/sentinel-official/hub/v0.5/x/subscription/types"
 )
 
 func RandomizedGenesisState(cdc *codec.Codec) types.GenesisState {

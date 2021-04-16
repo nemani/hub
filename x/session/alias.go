@@ -7,9 +7,9 @@
 package session
 
 import (
-	"github.com/sentinel-official/hub/x/session/keeper"
-	"github.com/sentinel-official/hub/x/session/querier"
-	"github.com/sentinel-official/hub/x/session/types"
+	"github.com/sentinel-official/hub/v0.5/x/session/keeper"
+	"github.com/sentinel-official/hub/v0.5/x/session/querier"
+	"github.com/sentinel-official/hub/v0.5/x/session/types"
 )
 
 const (
